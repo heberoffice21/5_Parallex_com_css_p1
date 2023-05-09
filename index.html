@@ -27,14 +27,25 @@
 			text-align: center;
 		}
 
+		p {
+			margin-bottom: 20px;
+		}
+
 
 /*Efeito Parallax*/
 
 
-	.caixa1, .caixa2 {
+	.caixa1, .caixa2, .caixa3, .caixa4 {
 
-		border: 1px solid red;
+		position: relative;
 		height: 100%;
+		opacity: 0.7;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+
+
 	}
 
 	.caixa1 {
@@ -48,7 +59,34 @@
 
 	}
 
+	.caixa3 {
+		background-image: url(imagens/imagem3.jpg) ;
 
+	}
+
+	.caixa4 {
+		background-image: url(imagens/imagem4.jpg) ;
+
+	}
+
+	.conteudo-titulo {
+		position: absolute;
+		left: 0%;
+		top: 50%;
+		width: 100%;
+		text-align: center;
+	}
+
+
+	.conteudo-titulo span.titulo {
+		color: #fff;
+		background-color: #111;
+		padding: 18px;
+		font-size: 25px;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+
+	}
 	
 		
 
@@ -62,16 +100,41 @@
 <body>
 
 <div class="caixa1" >
-	Caixa 1
+	
+	<div class="conteudo-titulo" >
+		<span class="titulo" >BALÕES VOANDO</span>
+	</div>
+
 </div>
 
 <div class="conteudo" >
-	<h3>What is Lorem Ipsum?</h3>
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+	<h3>Parallax</h3>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 </div>
 
 <div class="caixa2" >
-	Conteúdo 2
+	<div class="conteudo-titulo" >
+		<span class="titulo" >estrada</span>
+	</div>
+</div>
+
+	<h3>Parallax</h3>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+<div class="caixa3" >
+	<div class="conteudo-titulo" >
+		<span class="titulo" >ALEGRIA CONTAGIANTE</span>
+	</div>
+</div>
+
+<div class="caixa4" >
+	<div class="conteudo-titulo" >
+		<span class="titulo" >PÔR DO SOL</span>
+	</div>
 </div>
 
 
